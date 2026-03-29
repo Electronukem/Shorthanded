@@ -18,19 +18,19 @@ This tool finds the minimum strokes needed for OCR to still correctly read **f**
 
 | Letter | Full form | Minimum strokes | Stroke savings |
 |--------|-----------|-----------------|----------------|
-| **f**  | Curved top + stem + crossbar | Stem + crossbar only | **62%** |
+| **f**  | Curved top + stem + crossbar | Stem + curved top only | **62%** |
 | **m**  | Two curved humps + entry | Two straight peaks | **54%** |
 | **w**  | Four curved strokes | Four straight lines | **24%** |
 
 <table>
 <tr>
-<td align="center"><img src="data/MyWriting/shortcuts/f_minimum.png" width="120"/><br/><b>f</b> — just a cross</td>
+<td align="center"><img src="data/MyWriting/shortcuts/f_minimum.png" width="120"/><br/><b>f</b> — curvy stem</td>
 <td align="center"><img src="data/MyWriting/shortcuts/m_minimum.png" width="120"/><br/><b>m</b> — two peaks</td>
 <td align="center"><img src="data/MyWriting/shortcuts/w_minimum.png" width="120"/><br/><b>w</b> — wide V with bump</td>
 </tr>
 </table>
 
-The key insight: OCR reads **structure**, not beauty. The crossbar position distinguishes `f` from `t`. Two humps distinguish `m` from `n`. A center rise distinguishes `w` from `v`. Everything else is decoration.
+The key insight: OCR reads **structure**, not beauty. The curvy stem position distinguishes `f` from `t`. Two humps distinguish `m` from `n`. A center rise distinguishes `w` from `v`. Everything else is decoration.
 
 ---
 
