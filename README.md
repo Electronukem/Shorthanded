@@ -6,7 +6,7 @@ Built on top of [Generating Handwriting via Decoupled Style Descriptors (ECCV 20
 
 Disclaimer: Using this comes with absolutely no warranty, a standard disclaimer for free and open-source software, meaning the user takes full responsibility for its use and any potential system issues.
 
-Disclaimer 2: This only works for sequential writing and only lower case letters written by my teammate; so only for programs that pass (x,y,t) for the sake of speeding up OCR within that process extremely specific use case such as Ink.AI. This was not made by a data scientist, it was a 1 day hack by a 3d pritning guy who thought of this on a whim. Please do not roast me too badly. I found out minutes before the hack was over that Brush isn't used and Claude skimped over its usage so it actually compares it to OpenCV instead of thousands of other handwriting. I'll get it to work eventually, this was a 1 day hack done by a non-specialist that awkwardly got popularity.
+Disclaimer 2: This only works for sequential writing and only lower case letters written by my teammate; so only for programs that pass (x,y,t) for the sake of speeding up OCR and analyzed in real time within that extremely specific use case such as Ink.AI. This was not made by a data scientist, it was a 1 day hack by a 3d pritning guy who thought of this on a whim. Please do not roast me too badly. I found out minutes before the hack was over that Brush isn't used and Claude skimped over its usage so it actually compares it to OpenCV instead of thousands of other handwriting. I'll get it to work eventually, this was a 1 day hack done by a non-specialist that awkwardly got popularity.
 ---
 
 ## The Idea
