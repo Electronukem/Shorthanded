@@ -4,6 +4,8 @@
 
 Built on top of [Generating Handwriting via Decoupled Style Descriptors (ECCV 2020)](http://dsd.cs.brown.edu/), this project adds a personal shorthand layer — teaching OCR to recognize **minimum-stroke versions** of letters so you can write faster without losing accuracy.
 
+Disclaimer: Using this comes with absolutely no warranty, a standard disclaimer for free and open-source software, meaning the user takes full responsibility for its use and any potential system issues.
+Disclaimer 2: This only works for sequential writing, so only for programs that pass (x,y,t) for the sake of speeding up OCR within that process. This was not made by a data scientist, it was a 1 day hack by a 3d pritning guy who thought of this on a whim. Please do not roast me too badly. I found out minutes before the hack was over that Brush isn't used and Claude skimped over its usage. I'll get it to work eventually.
 ---
 
 ## The Idea
